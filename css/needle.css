@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    height:100px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    height:38px;
+    width: 170px;
+    padding-top: 30px;
+    padding-left:80px ;
+}
+ul{
+    list-style-type: none;
+    float: right ;
+    padding-top: 12px;
+}
+li{
+    display: inline;
+    padding-right: 100px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    
+}
+a:hover{
+    color: rgb(0, 183, 255);
+}
+a:active{
+    color: rgb(0, 183, 255);
+}
+.workplace{
+    display: block;
+    float: left;
+    float: right;
+    width: 100%;
+    height:500px;
+}
+.slidercon{
+    height: 630px;
+    background-color: whitesmoke;
+}
+.slider{
+    height:50px;
+    width:100px;
+    padding-left:150px;
+    padding-top: 25px;
+}
+h2{
+    font-family: sans-serif;
+    color: rgb(0, 183, 255);
+    /* padding-top: 110px; */
+    font-size: 40px;
+}
+h3{
+    font-family: sans-serif;
+    color: rgb(26, 84, 172);
+    text-indent: 0;
+    font-size: 20px;
+}
+p{
+    line-height: 25px;
+    color: rgb(77, 75, 75);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.servicecont{
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.text1{
+    border-bottom: 2px solid rgb(0, 174, 255);
+}
+.servicetext{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.serviceimg{
+    height: 30px;
+    width: 70px;
+    padding-top: 50px;
+}
+
+.fa-id-card {
+    color: red;
+    font-size: 10px;
+}
+.wnpic{
+    height:300px;
+    width:400px;
+    padding-left: 150px;
+}
+.whyneedle{
+    padding-left: 100px;
+    padding-right: 100px;
+    height:500px;
+    background-color: white;
+}
+.needlecont{
+    display:grid;
+    grid-template-columns: 400px auto;
+    column-gap: 50px;
+}
+.client{
+    display :grid;
+    grid-template-columns: auto auto auto;
+   /* column-gap: 50px;*/
+   background-color: white;
+   padding-top:0;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+.team{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+}
+.wntpic{
+    height:300px;
+    width:300px;
+    
+}
+.clientstat{
+    padding-left: 100px;
+    padding-right: 100px;
+    /* height:500px; */
+    background-color: white;
+}
+.teamcont{
+    padding-left: 100px;
+    padding-right: 100px;
+    height:500px;
+    background-color: white;
+    padding-bottom: 400px;
+}
+.teaminfo{
+    color: rgb(51, 197, 223);
+    font-size: 25px;
+    text-align: center;
+}
+span{
+padding-left: 300px;
+padding-right: 300px;
+}
